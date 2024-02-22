@@ -1,0 +1,98 @@
+.fondLosanges{
+    background-image: url("../img/back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.listeTitre{
+    color:rgb(97, 0, 130);
+    text-align: center;
+    font-weight: 200;
+}
+
+.card{
+    border: 2px solid rgb(97, 0, 130);
+    box-shadow: 6px 6px 4px lightgrey;
+}
+
+.card-body{
+    padding:0 0 0px 0;
+}
+
+.card-picto{
+    position: relative;
+}
+
+.imgChat{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.card-title{
+    margin-left:18px;
+    margin-top:15px;
+}
+
+.card-title-lechat{
+    font-size:75%;
+}
+
+
+.card-identite{
+    padding:5px;
+    border-bottom : 1px dashed gray;
+    background-color: rgb(97, 0, 130);
+    color: white;
+}
+
+.card-competences{
+    border-bottom: 1px dashed gray;
+}
+
+.card-favori{
+    padding:15px 0 0 5px;
+}
+
+.card-commentaire{
+    text-align: right;
+    color:rgb(242, 244, 252);
+    font-style: italic;
+}
+
+
+.card-adoptable{
+    text-align: left;
+    color:rgb(74, 74, 74);
+    font-size:90%;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.picto{
+    display:block;
+    position: absolute;
+    top:15px;
+    right:15px;
+    padding:2px;
+    width:44px;
+    height:44px;
+    border-radius: 5px;
+    background-color: white;    
+}
+
+
+.fondPageAdmin{
+    background-color: rgb(111, 29, 4);
+}
+
+.contenuPage{
+    padding:15px;
+    background-color: rgba(255,255,255,0.75);
+    min-height: 450px;;
+}
+
+.fondPageDebug{
+    background-color: rgb(4, 61, 111);
+}
